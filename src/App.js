@@ -10,7 +10,10 @@ import HomePage from "./components/HomePage";
 function App() {
   return (
     <div className="container">
-
+<Routes>
+    <Route path="/" element={<HomePage />}></Route>
+    <Route path="/booking" element={<BookingPage />}></Route>
+</Routes>
       <Nav />
       <Header />
       <Main />

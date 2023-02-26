@@ -1,7 +1,10 @@
+import BookingForm from "./BookingForm"
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div className="booking">
+        <BookingForm />
+    </div>
   )
 }
 
