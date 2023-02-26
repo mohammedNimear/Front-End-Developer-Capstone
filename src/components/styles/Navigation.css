@@ -1,0 +1,30 @@
+.navigation ul {
+    display: flex;
+}
+
+.navigation ul li {
+    padding: 0 15px;
+}
+
+.navigation  a {
+    font-size: smaller;
+    font-weight: 500;
+    padding: 0 10px;
+
+}
+
+.navigation  a:hover {
+    color: #857b7b;
+}
+
+.navigation ul li .active-links.active {
+    color: #495e57
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .navigation {
+        display: none;
+    }
+}
